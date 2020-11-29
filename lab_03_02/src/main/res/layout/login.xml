@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<TableRow>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_height="70dp"
+        android:background="#EEEE00"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="LOGIN APP"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp">
+
+    </TextView>
+</TableRow>
+<TableRow
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp">
+    <EditText
+        android:id="@+id/username"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="  Username"
+        android:textSize="25dp"
+        android:textColor="#000"
+        >
+    </EditText>
+</TableRow>
+<TableRow
+    android:paddingRight="6dp"
+    android:paddingLeft="6dp">
+    <EditText
+        android:id="@+id/psw"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="  Password"
+        android:textSize="25dp"
+        android:textColor="#000">
+
+    </EditText>
+</TableRow>
+<TableRow>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="取消">
+    </Button>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="确定">
+    </Button>
+
+</TableRow>
+
+</TableLayout>
